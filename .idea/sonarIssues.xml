@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="$PROJECT_DIR$/src/App.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/PageWrapper.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/Home.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/tipico/features.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/tipico/local-features.properties.tipico1">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/tipico/local-features.properties.tipico2">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/tipico/local-features.properties.tipico3">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/tipico/local-features.properties.tipico4">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/tipico/local-features.properties.tipico5">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/tipico/local-features.properties.tipico7">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/tipico/local-features.properties.tipico8">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/tipico/local-features.properties.tipico9">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/regulations-fes/helm/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/regulations-fes/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/regulations-fes/src/main/java/com/tipico/services/regulationsfes/view/rs/limits/CustomerLimitsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
