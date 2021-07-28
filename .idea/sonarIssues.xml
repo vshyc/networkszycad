@@ -3,6 +3,11 @@
   <component name="issues">
     <option name="index">
       <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/App.js">
           <value>
             <set />
@@ -13,7 +18,47 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/Common/Field.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/Common/TeamMember.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/Contact.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/components/pages/Home.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/src/models/profile.model.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/src/openapi-spec.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/_default/features.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/_default/features.properties.override">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_features/staging/features.properties.override">
           <value>
             <set />
           </value>
@@ -63,6 +108,386 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/db_info/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/db_shopholder/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/db_shopholder/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/db_webholder/sportbet.adapter.license.schufa.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/db_webholder/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/db_webholder/sportbet.server.id3global.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/db_webholder/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/slave_mobile/sportbet.adapter.license.schufa.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/slave_mobile/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/_default/slave_web/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/staging/db_shopholder.tipico1/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/staging/db_shopholder.tipico2/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_info/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_info/sportbet.server.id3global.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_pdf_slave/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder.tipico1/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder.tipico10/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder.tipico2/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder.tipico3/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder.tipico4/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder.tipico5/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder.tipico7/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder.tipico8/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder.tipico9/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder/sportbet.server.id3global.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_shopholder/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_webholder/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_webholder/sportbet.server.id3global.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_webholder/sportbet.server.oasis.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/slave_infoscreen/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/slave_mobile/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/slave_web/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/exclusion-flow-service/exclusion-flow-service-api-impl/src/main/java/com/booxware/services/exclusion/view/rs/impl/SelfExclusionRestController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/exclusion-flow-service/exclusion-flow-service-common/src/main/java/com/booxware/services/exclusion/common/enums/DeactivationReason.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/exclusion-flow-service/exclusion-flow-service-domain/src/main/java/com/booxware/services/exclusion/domain/service/impl/ExclusionServiceBean.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/exclusion-flow-service/exclusion-flow-service-domain/src/test/java/com/booxware/services/exclusion/domain/service/impl/ExclusionServiceBeanTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/exclusion-flow-service/exclusion-flow-service/src/main/resources/application-local.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/exclusion-flow-service/helm/Chart.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/exclusion-flow-service/helm/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/exclusion-flow-service/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/gbgroup-gateway/helm/Chart.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/gbgroup-gateway/helm/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/gbgroup-gateway/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/monitoring-system/README.md">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/monitoring-system/inventories/610975540910/prod/group_vars/alertmanager/vars">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/oasis-gateway/helm/Chart.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/oasis-gateway/helm/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/oasis-gateway/oasis-gateway-domain/src/test/java/com/booxware/services/oasis/domain/events/OasisSingleVerificationRequestEventTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/oasis-gateway/oasis-gateway-domain/src/test/java/com/booxware/services/oasis/domain/service/impl/SingleVerificationRequestEventPublisherBeanTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/oasis-gateway/oasis-gateway-infra/src/main/java/com/booxware/services/oasis/infra/oasisws/config/OasisConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/oasis-gateway/oasis-gateway-infra/src/test/java/com/booxware/services/oasis/infra/oasisws/config/OasisConfigTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/oasis-gateway/oasis-gateway/config/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/oasis-gateway/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/dev/alerts/services/alerts-exclusion-flow-service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/dev/alerts/services/alerts-gbgroup-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/dev/alerts/services/alerts-oasis-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/dev/alerts/services/alerts-schufa-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/prod/alerts/infrastructure/alerts-prometheus.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/prod/alerts/infrastructure/alerts-services-global.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/prod/alerts/services/alerts-customer-stake-service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/prod/alerts/services/alerts-exclusion-flow-service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/prod/alerts/services/alerts-gbgroup-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/prod/alerts/services/alerts-oasis-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/prod/alerts/services/alerts-schufa-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/prod/templates/rules.configmap.services.a-z.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/prod/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/staging/alerts/services/alerts-exclusion-flow-service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/staging/alerts/services/alerts-gbgroup-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/staging/alerts/services/alerts-oasis-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/staging/alerts/services/alerts-schufa-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/testing/alerts/services/alerts-customer-stake-service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/testing/alerts/services/alerts-exclusion-flow-service.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/testing/alerts/services/alerts-gbgroup-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/testing/alerts/services/alerts-oasis-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/prometheus.config/testing/alerts/services/alerts-schufa-gateway.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Tipico/regulations-fes/helm/values.yaml">
           <value>
             <set />
@@ -74,6 +499,46 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Tipico/regulations-fes/src/main/java/com/tipico/services/regulationsfes/view/rs/limits/CustomerLimitsController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/services.config/exclusion-flow-service/production/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/services.config/exclusion-flow-service/staging/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/services.config/gbgroup-gateway/production/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/services.config/gbgroup-gateway/staging/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/services.config/oasis-gateway/production/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/services.config/oasis-gateway/staging/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/tests/kycEbetGateway/EBETGW_GetGermanKycStatusTest.js">
           <value>
             <set />
           </value>

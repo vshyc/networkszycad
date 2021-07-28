@@ -13,7 +13,7 @@ class Field extends Component {
                         type={this.props.type}
                         placeholder={this.props.placeholder}
                         required="required" 
-                        data-validation-required-message={this.props.data_validation_required_message}
+                        data-validation-required-message={this.props.errors}
                         name={this.props.name}
                         onChange={this.props.onChange}
                         onBlur={this.props.onBlur}
@@ -24,13 +24,17 @@ class Field extends Component {
                         id={this.props.name} 
                         placeholder={this.props.placeholder}
                         required="required" 
-                        data-validation-required-message={this.props.data_validation_required_message}
+                        data-validation-required-message={this.props.errors}
                         name={this.props.name}
                         onChange={this.props.onChange}
                         onBlur={this.props.onBlur}
                         />
                 }
-                <p className="help-block text-danger"></p>
+                <p className="help-block text-danger">
+                    {(this.props.touched && this.props.errors) &&
+                    <span>{this.props.errors}</span>
+                    }
+                </p>
             </div>
         
         )

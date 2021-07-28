@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import Field from './Common/Field'
 import {withFormik} from 'formik'
+import * as YUP from 'yup';
 
 const fields = {
     sections:[
@@ -17,9 +18,6 @@ const fields = {
 
 class Contact extends Component{
 
-    submitForm = (e) => {
-        alert("Form Submited :)")
-    }
 
 render(){
     return(
@@ -33,7 +31,7 @@ render(){
             </div>
             <div className="row">
                 <div className="col-lg-12">
-                <form id="contactForm" name="sentMessage" noValidate="novalidate" onSubmit={e => this.submitForm(e)}>
+                <form id="contactForm" name="sentMessage" noValidate="novalidate" onSubmit={this.props.handleSubmit}>
                     <div className="row">                   
                         {fields.sections.map((section,indexP) =>{
                             return (
@@ -45,7 +43,8 @@ render(){
                                 name={field.name}
                                 onChange={this.props.handleChange}
                                 onBlur={this.props.handleBlur}
-                                touched={(this.props)}
+                                touched={(this.props.touched[field.name])}
+                                errors={(this.props.errors[field.name])}
                                />})
                             }
                             </div>
@@ -74,16 +73,22 @@ export default withFormik({
         phone:'',
         massage:'',
     }),
-    validate: values => {
-        const errors ={};
-        Object.keys(values).map(v => {
-            if(!values[v]){
-                errors[v] = "Required";
-            }
-        })
-        return errors
-    },
-    handleSubmit: (values,{setSudmitting}) => {
-        alert("Form Submited :)")
+    validationSchema: YUP.object().shape({
+        name: YUP.string()
+            .min(3,'Your name is too short')
+            .required('Name is required'),
+        email: YUP.string()
+            .email('Not valid email')
+            .required('Email is required'),
+        phone: YUP.string()
+            .min(9,'Not valid phone number')
+            .max(15,'Not valid phone number')
+            .required('Phone number is required'),
+        message: YUP.string()
+            .required('Message is required')
+
+    }),
+    handleSubmit: (values,{setSubmitting}) => {
+        alert("Form Submited :)",JSON.stringify(values))
     }
 })(Contact);
