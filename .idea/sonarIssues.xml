@@ -8,12 +8,32 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/HTML/Moja strona/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/public/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/public/manifest.json">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/App.js">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/components/PageWrapper.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/About.js">
           <value>
             <set />
           </value>
@@ -28,6 +48,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/Common/Timeline.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/components/pages/Contact.js">
           <value>
             <set />
@@ -38,12 +63,77 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/Dockerfile">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/dist/index.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/dist/openapi-spec.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/server/component-config.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/server/config.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/server/datasources.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/server/middleware.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/server/server.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/src/controllers/profile.controller.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/src/datasources/db.datasource.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/szycad_website/src/index.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/szycad_website/src/models/profile.model.ts">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/szycad_website/src/openapi-spec.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-ebet-system-resources/ebet_prefs/defenders/db_webholder/sportbet.server.optionservice.json">
           <value>
             <set />
           </value>
@@ -168,6 +258,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/staging/db_webholder/sportbet.common.exfls.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/staging/slave_web/sportbet.client.web.site2.service.selfexclude.flow.json">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/db_info/sportbet.common.gbg.json">
           <value>
             <set />
@@ -269,6 +369,11 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Tipico/chef-production-system-resources/ebet_prefs/tipico/slave_web/sportbet.common.gbg.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/customer-stake-service/customer-stake-service/src/main/java/com/tipico/services/risk/controller/CleanTaskEndpoint.java">
           <value>
             <set />
           </value>
@@ -498,6 +603,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Tipico/regulations-fes/regulations-fes-limits-migration-job/config/application.yml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/regulations-fes/regulations-fes-limits-migration-job/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/regulations-fes/regulations-fes/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Tipico/regulations-fes/src/main/java/com/tipico/services/regulationsfes/view/rs/limits/CustomerLimitsController.java">
           <value>
             <set />
@@ -529,6 +649,16 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Tipico/services.config/oasis-gateway/staging/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/services.config/regulations-fes/production/values.yaml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/services.config/regulations-fes/staging/values.yaml">
           <value>
             <set />
           </value>

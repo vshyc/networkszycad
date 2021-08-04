@@ -17,7 +17,7 @@ class About extends Component {
       <div className="row">
         <div className="col-lg-12 text-center">
           <h2 className="section-heading text-uppercase">About</h2>
-          <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 className="section-subheading text-muted">How I became a Software Tester.</h3>
         </div>
       </div>
           <Timeline/>
