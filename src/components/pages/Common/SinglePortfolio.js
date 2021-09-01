@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
+import {Link } from 'react-router-dom';
 
 class SinglePortfolio extends Component{
     render(){
         return(
             <div className="col-md-4 col-sm-6 portfolio-item">
-                <Link className="portfolio-link" data-toggle="modal" to={this.props.portfolioModal}>
+                <Link className="portfolio-link" to={this.props.portfolioModal}  >
                     <div className="portfolio-hover">
                         <div className="portfolio-hover-content">
                             <i className="fas fa-plus fa-3x"></i>

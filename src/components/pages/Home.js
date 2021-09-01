@@ -11,7 +11,7 @@ class Home extends Component{
                 title = "Hello my name is Dariusz Szyca!"
                 subtitle = "IT'S NICE TO MEET YOU"
                 buttonText = "Tell me more"
-                link = "/services"
+                link = "/about"
                 showButton = {true}
                 img= {img}
             />

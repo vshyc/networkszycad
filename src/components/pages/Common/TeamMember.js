@@ -11,19 +11,19 @@ class TeamMember extends Component {
                         <p className="text-muted">{this.props.memberWork}</p>
                         <ul className="list-inline social-buttons">
                         <li className="list-inline-item">
-                            <Link to="#">
+                            <Link to={this.props.twitter}>
                             <i className="fab fa-twitter"></i>
                             </Link>
                         </li>
                         <li className="list-inline-item">
-                            <Link to="#">
+                            <a href={this.props.facebook}>
                             <i className="fab fa-facebook-f"></i>
-                            </Link>
+                            </a>
                         </li>
                         <li className="list-inline-item">
-                            <Link to="#">
+                            <a href={this.props.linkedIn}>
                             <i className="fab fa-linkedin-in"></i>
-                            </Link>
+                            </a>
                         </li>
                         </ul>
                     </div>
