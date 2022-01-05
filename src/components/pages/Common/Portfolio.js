@@ -10,7 +10,7 @@ import img5 from '../../assets/img/portfolio/05-thumbnail.jpg';
 import img6 from '../../assets/img/portfolio/06-thumbnail.jpg';
 
 const techonologies = [
-    {title: 'Java',subTitle: 'Illustration',img: img1, portfolioModal: "/about"},
+    {title: 'Java',subTitle: 'The Journey',img: img1, portfolioModal: "/about"},
     {title: 'JS',subTitle: 'Graphic Design', img: img2},
     {title: 'Kubernetes',subTitle: 'Identity', img: img3},
     {title: 'Lines',subTitle: 'Branding', img: img4},
@@ -20,7 +20,7 @@ const techonologies = [
 ]
 const freeTime = [
     {title: 'Family',subTitle: 'Illustration',img: img1, portfolioModal: "/myFamily"},
-    {title: 'Bike',subTitle: 'Graphic Design', img: img2},
+    {title: 'Running',subTitle: 'Running Results', img: img2, portfolioModal: "/running"},
     {title: 'Gaming',subTitle: 'Identity', img: img3},
 ]
 

@@ -33,7 +33,7 @@ class Timeline extends Component{
                     </div>
                     <div className="timeline-body">
                       <p className="text-muted">Few months after getting ISTQB I spend learning Java and Testing tools.
-                      I had few Job interviews and on one of them I got positive feedback and get a my first job in Epam
+                      I had a few Job interviews and on one of them I got positive feedback and get my first job in Epam
                         Systems as Junior Software Test Automation Engineer. </p>
                     </div>
                   </div>
@@ -64,7 +64,7 @@ class Timeline extends Component{
                     </div>
                     <div className="timeline-body">
                       <p className="text-muted">In 2020 I started to share my knowledge and experience with people who
-                        wants to become Testers. I became a coach in "Software Development Academy" witch is a
+                        wants to become Testers. I became a coach in "Software Development Academy" which is a
                         bootcamp company in Poland  </p>
                     </div>
                   </div>
@@ -79,7 +79,7 @@ class Timeline extends Component{
                       <h4 className="subheading">Still getting better</h4>
                     </div>
                     <div className="timeline-body">
-                      <p className="text-muted">After coaching new testers inside and outside of company I'm part off in
+                      <p className="text-muted">After coaching new testers inside and outside of company that I'm part off in
                         June 2021 I became a Senior in my field. </p>
                     </div>
                   </div>

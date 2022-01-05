@@ -141,7 +141,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: palevioletred;
 }
 
 @media (min-width: 992px) {
@@ -544,6 +544,12 @@ header.masthead .intro-text .intro-heading {
 }
 
 @media (min-width: 1200px) {
+  .tableBody {
+    text-align: center;
+    font-size: 40px;
+    line-height: 26px;
+    margin-top: 30px;
+  }
   .timeline > li {
     min-height: 170px;
   }
@@ -681,3 +687,4 @@ ul.social-buttons li a {
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
   background-color: #fed136;
 }
+

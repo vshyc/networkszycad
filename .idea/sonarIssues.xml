@@ -8,7 +8,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/HTML/Moja strona/index.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/public/css/agency.css">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/public/css/agency.min.css">
           <value>
             <set />
           </value>
@@ -23,7 +43,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/App.css">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/App.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/AdminWrapper.js">
           <value>
             <set />
           </value>
@@ -39,6 +69,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/components/pages/Common/Field.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/Common/Portfolio.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/Common/Running.js">
           <value>
             <set />
           </value>
@@ -59,6 +99,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/components/pages/Home.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/Login.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/components/pages/Registration.js">
           <value>
             <set />
           </value>
@@ -373,7 +423,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Tipico/customer-stake-service/CD_pipelineHooks.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/customer-stake-service/CI_pipelineHooks.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Tipico/customer-stake-service/customer-stake-service/src/main/java/com/tipico/services/risk/controller/CleanTaskEndpoint.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/customer-stake-service/customer-stake-service/src/test/java/com/tipico/services/risk/bdd/Stepdefs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/customer-stake-service/customer-stake-service/src/test/resources/application.yml">
           <value>
             <set />
           </value>
@@ -593,6 +663,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Tipico/regulations-fes/CD_pipelineHooks.groovy">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Tipico/regulations-fes/helm/values.yaml">
           <value>
             <set />
@@ -614,6 +689,11 @@
           </value>
         </entry>
         <entry key="$USER_HOME$/Tipico/regulations-fes/regulations-fes/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/regulations-fes/src/main/java/com/tipico/services/regulationsfes/domain/core/limits/history/CustomerLimitsHistoryService.java">
           <value>
             <set />
           </value>
@@ -663,12 +743,272 @@
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Tipico/ta-account/node_modules/ta-mobile-common/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-account/node_modules/ta-mobile-common/tools/testReporter/reqTest.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-account/node_modules/ta-mobile-common/tools/testReporter/utilities/reqTestData.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-account/package.json">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/constants/MediaTypes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/data/generators/UserDataGenerator.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/enums/LabelEnums.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/helpers/TermsAndConditionsHelper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/pojo/counters/PostCountersResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/pojo/helpers/TAC.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/pojo/limits/Current.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/pojo/limits/Future.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/pojo/limits/LimitsResponseData.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/pojo/rgfes/RGFESCreateLimitResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/pojo/rgfes/RGFESGetOptionServiceLimitResponse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/pojo/rgfes/RGFESLimitFromOptions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/pojo/rgfes/RGFESLimitsFromOptions.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/properties/EnvConfig.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/rop/BaseEndpoint.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/main/java/customer/stake/rop/GetRGFESLimitEndpoint.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/java/GetLimitsForOverviewFromOptionsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/java/customer/stake/counters/tests/GetCountersTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/java/customer/stake/counters/tests/PostCreateUserCountersTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/java/e2e/tests/LimitsBlockingDepositTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/java/limit/service/tests/GetCustomerLimitsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/java/limit/service/tests/PostRGFESCreateLimitTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/java/limit/service/tests/PutCreateLimitTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/java/regulations/fes/GetLimitsForOverviewFromOptionsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/resources/addCounterToCustomerStakeService.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/resources/createLimitTestData.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/resources/getCountersFromCustomerStakeService.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/resources/limitsWithCountersData.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/resources/updateAMLLimitToHigherValueTestData.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/resources/updateLimitTestData.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-limitService-api/src/test/resources/updateLimitToHigherValueTestData.csv">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/helpers/crfesHelper.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/helpers/ebetGatewayHelper.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/node_modules/codeceptjs/node_modules/mocha/lib/mocha.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/node_modules/ta-mobile-common/tools/testReporter/reqTest.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/node_modules/ta-mobile-common/tools/testReporter/testRail.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/node_modules/ta-mobile-common/tools/testReporter/utilities/reqTestData.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Tipico/ta-mobile-api/package.json">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/tests/idnowGateway/IDNGW_PostTriggerIdNowProcessTest.js">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$USER_HOME$/Tipico/ta-mobile-api/tests/kycEbetGateway/EBETGW_GetGermanKycStatusTest.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-api/tests/schufaGateway/SCHGW_PostSearchTest.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-mobile-common/tools/testReporter/reqTest.js">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-oasis/src/main/java/com/tipico/oasis/constants/MediaTypes.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/Tipico/ta-oasis/src/main/java/com/tipico/oasis/constants/Resources.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Volumes/Seagate/SzycadWebsiteApi/pom.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Volumes/Seagate/SzycadWebsiteApi/src/main/java/com/example/szycadwebsiteapi/config/AppWebSecurityConfigurer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Volumes/Seagate/SzycadWebsiteApi/src/test/java/com/example/szycadwebsiteapi/UserRepositoryTests.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/Volumes/Seagate/SzycadWebsiteApi/src/test/java/com/example/szycadwebsiteapi/domain/LoginDataTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
           <value>
             <set />
           </value>

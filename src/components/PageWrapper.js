@@ -15,19 +15,22 @@ class PageWrapper extends Component {
             <div className="collapse navbar-collapse" id="navbarResponsive">
               <ul className="navbar-nav text-uppercase ml-auto">
                   <li className="nav-item">
-                      <Link className="nav-link js-scroll-trigger" to="/">Home</Link>
-                  </li>
-                  {/*<li className="nav-item">*/}
-                  {/*  <Link className="nav-link js-scroll-trigger" to="/services">Services</Link>*/}
-                  {/*</li>*/}
-                  <li className="nav-item">
-                    <Link className="nav-link js-scroll-trigger" to="/portfolio">Portfolio</Link>
+                      <Link id="headerHome" className="nav-link js-scroll-trigger" to="/">Home</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link js-scroll-trigger" to="/about">About</Link>
+                      <Link id="headerPortfolio" className="nav-link js-scroll-trigger" to="/portfolio">Portfolio</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
+                      <Link id="headerAbout" className="nav-link js-scroll-trigger" to="/about">About</Link>
+                  </li>
+                  <li className="nav-item">
+                      <Link id="headerContact" className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
+                  </li>
+                  <li className="nav-item">
+                      <Link id="headerLogin" className="nav-link js-scroll-trigger" to="/login">Login</Link>
+                  </li>
+                  <li className="nav-item">
+                      <Link id="headerRegistration" className="nav-link js-scroll-trigger" to="/registration">Registration</Link>
                   </li>
               </ul>
             </div>
