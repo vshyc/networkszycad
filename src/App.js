@@ -10,15 +10,33 @@ import Services from "./components/pages/Common/Services";
 import Login from "./components/pages/Login";
 import Registration from "./components/pages/Registration";
 import Running from "./components/pages/Common/Running";
+import Resume from "./components/pages/Common/Resume";
+import $ from 'jquery';
 
 class App extends Component {
     state = {
         isLoading: false,
-        groups: []
+        groups: [],
+        resumeData: {}
     };
+    getResumeData(){
+        $.ajax({
+            url:'/resumeData.json',
+            dataType:'json',
+            cache: false,
+            success: function(data){
+                this.setState({resumeData: data});
+            }.bind(this),
+            error: function(xhr, status, err){
+                console.log(err);
+                alert(err);
+            }
+        });
+    }
 
     async componentDidMount() {
         const response = await fetch('/api/groups');
+        this.getResumeData();
         const body = await response.json();
         this.setState({groups: body, isLoading: false});
     }
@@ -30,6 +48,7 @@ class App extends Component {
             return <p>Loading...</p>;
         }
         return (
+
             <Router>
                 <PageWrapper>
                     <Route
@@ -64,6 +83,10 @@ class App extends Component {
                     <Route
                         path="/running"
                         component={Running}
+                    />
+                    <Route
+                        path="/CV"
+                        component={() => <Resume data={this.state.resumeData.resume}/>}
                     />
                 </PageWrapper>
 

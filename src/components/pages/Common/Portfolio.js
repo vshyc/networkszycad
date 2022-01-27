@@ -10,8 +10,8 @@ import img5 from '../../assets/img/portfolio/05-thumbnail.jpg';
 import img6 from '../../assets/img/portfolio/06-thumbnail.jpg';
 
 const techonologies = [
+    {title: 'CV',subTitle: 'Education and Work Journey', img: img2, portfolioModal: "/CV"},
     {title: 'Java',subTitle: 'The Journey',img: img1, portfolioModal: "/about"},
-    {title: 'JS',subTitle: 'Graphic Design', img: img2},
     {title: 'Kubernetes',subTitle: 'Identity', img: img3},
     {title: 'Lines',subTitle: 'Branding', img: img4},
     {title: 'Southwest',subTitle: 'Website Design', img: img5},
