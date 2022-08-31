@@ -10,11 +10,11 @@ class Running extends Component{
         result: []
     }
     componentDidMount() {
-        // let config = {
-        //     headers: {
-        //         "Access-Control-Allow-Origin": "http://localhost:8080"
-        //     }
-        // }
+        let config = {
+            headers: {
+                "Access-Control-Allow-Origin": "http://localhost:8080"
+            }
+        }
         request.get("http://localhost:8080/results")
             .then(value => {
                 const result = value.data._embedded.results;

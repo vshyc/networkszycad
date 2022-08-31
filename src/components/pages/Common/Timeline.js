@@ -86,8 +86,22 @@ class Timeline extends Component{
                 </li>
                 <li className="timeline-inverted">
                   <div className="timeline-image">
+                    <img className="rounded-circle img-fluid" src="img/about/AmazonDevCenter1440.jpeg" alt=""/>
+                  </div>
+                  <div className="timeline-panel">
+                    <div className="timeline-heading">
+                      <h4>June 2022</h4>
+                      <h4 className="subheading">New Path</h4>
+                    </div>
+                    <div className="timeline-body">
+                      <p className="text-muted">After 3 years of beautiful journey with Epam I have started new experience in Amazon </p>
+                    </div>
+                  </div>
+                </li>
+                <li className="timeline-inverted">
+                  <div className="timeline-image">
                     <h4>Be Part
-                      <br/>Of Our
+                      <br/>Of My
                       <br/>Story!</h4>
                   </div>
                 </li>

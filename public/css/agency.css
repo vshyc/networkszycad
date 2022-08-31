@@ -70,6 +70,8 @@ h6 {
 .row.collapsed > .columns,
 .column.collapsed, .columns.collapsed  { padding: 0; }
 
+section {padding: 50px 0;}
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
