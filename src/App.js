@@ -17,7 +17,8 @@ class App extends Component {
     state = {
         isLoading: false,
         groups: [],
-        resumeData: {}
+        resumeData: {},
+        runData: {}
     };
     getResumeData(){
         $.ajax({
@@ -82,7 +83,7 @@ class App extends Component {
                     />
                     <Route
                         path="/running"
-                        component={Running}
+                        component={() => <Running data={this.state.resumeData.run}/>}
                     />
                     <Route
                         path="/CV"

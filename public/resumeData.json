@@ -62,9 +62,15 @@
     ],
     "work": [
       {
+        "company": "Amazon Development Center",
+        "title": "Quality Assurance Engineer ",
+        "years": "June 2022 - Present",
+        "description": "Inside project for Alexa.\n• Defining Test strategy\n• Development of automation test frameworks (Technologies: Java, Junit, Cucumber,\nAllure, AssertJ, RestAssured,Git)\n• Monitoring and scaling the services according to traffic\n• Ensuring the timely delivery of different testing milestones\n• TTS application functional testing\n• Creating documentation\n• Preparing bug reports\n"
+      },
+      {
         "company": "EPAM Systems",
         "title": "Senior Software Test Automation Engineer ",
-        "years": "June 2021 - Present",
+        "years": "June 2021 - June 2022",
         "description": "#Project for Client – big website for sports betting\n• Defining Test strategy\n• Development of automation test frameworks (Technologies: Java,\nSelenium Web Driver, Junit, Cucumber, JavaScript, CodeceptJS, Pupeteer,\nAllure, AssertJ, RestAssured, BrowserStack, Jenkins, Maven, Git,\nKubernetes, Docker)\n• Created client for JS based test Automation frameworks for reporting test\nexecution in ReqTest\n• Monitoring and scaling the services according to traffic\n• Working closely with Client\n• Ensuring the timely delivery of different testing milestones\n• Mentoring for new employees, task planning for trainees\n• Web and Mobile application functional testing\n• Creating documentation\n• Participating in process of identifying and choosing test reporting tool\n• Preparing bug reports\n #EPAM inside projects:\n• Participating in technical interviews with candidates and being expert in\nassessment committee\n• Technical Mentor for mentees\n• Lecturer in QA Academy program for new Test Automation Engineers"
       },
       {
@@ -170,5 +176,20 @@
         "user": "Steve Wozniak... impersonator"
       }
     ]
+  },
+  "run": {
+    "runCompetition": [
+      {
+        "name": "RunGdn",
+        "date": "29.01.2021 ",
+        "time": "29:29",
+        "distance": "5km"
+      },
+      {
+        "name": "RunGdn",
+        "date": "29.01.2021 ",
+        "time": "29:29",
+        "distance": "5km"
+      }]
   }
 }

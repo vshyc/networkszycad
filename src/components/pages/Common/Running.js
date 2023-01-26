@@ -25,7 +25,18 @@ class Running extends Component{
                 console.log(error);
             });
     }
-    render() { return(
+    render() {
+
+        if(this.props.data){
+            var runCompetition = this.props.data.runCompetition.map(function(runCompetition){
+                return <div key={runCompetition.name}><p>{runCompetition.name}<span>&bull;</span>
+                   {runCompetition.time}<span>&bull;</span>{runCompetition.date}<span>&bull;</span>
+                    {runCompetition.distance}</p>
+                </div>
+            })
+        }
+
+        return(
             <section>
                 <div className="container">
             <h1>Running Results</h1>
@@ -38,23 +49,15 @@ class Running extends Component{
                     <th>Run Distance</th>
                 </tr>
                 </thead>
-                <tbody className="table-bordered table-dark">
-                    { this.state.result.map((value, index) =>
-                    <tr className="">
-                        <th className="">{value.runName}</th>
-                        <th>{value.runDate}</th>
-                        <th>{value.runTime}</th>
-                        <th>{value.runDistance}</th>
-                    </tr>
-                    )}
-                </tbody>
             </table>
-                    <div>
-                        { this.state.result.forEach(value => value.runName)}
+                <div className="row item">
+                    <div className="twelve columns">
+                    {runCompetition}
                     </div>
-            </div>
+                </div>
+                </div>
             </section>
-        );
+    );
     }
 }
 export default Running;

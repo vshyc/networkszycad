@@ -11,7 +11,7 @@ import img6 from '../../assets/img/portfolio/06-thumbnail.jpg';
 
 const techonologies = [
     {title: 'CV',subTitle: 'Education and Work Journey', img: img2, portfolioModal: "/CV"},
-    {title: 'Java',subTitle: 'The Journey',img: img1, portfolioModal: "/about"},
+    {title: 'Tester',subTitle: 'The Journey',img: img1, portfolioModal: "/about"},
     {title: 'Kubernetes',subTitle: 'Identity', img: img3},
     {title: 'Lines',subTitle: 'Branding', img: img4},
     {title: 'Southwest',subTitle: 'Website Design', img: img5},
@@ -32,7 +32,7 @@ class Portfolio extends Component{
             <div className="container">
               <div className="row">
                 <div className="col-lg-12 text-center">
-                  <h2 className="section-heading text-uppercase">Technologies</h2>
+                  <h2 className="section-heading text-uppercase">My Work</h2>
                   <h3 className="section-subheading text-muted">The stuff that I'm working on</h3>
                 </div>
               </div>
@@ -48,8 +48,8 @@ class Portfolio extends Component{
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 text-center">
-                            <h2 className="section-heading text-uppercase">Portfolio</h2>
-                            <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                            <h2 className="section-heading text-uppercase">Free Time</h2>
+                            <h3 className="section-subheading text-muted">What I am in free time.</h3>
                         </div>
                     </div>
                     <div className="row">
