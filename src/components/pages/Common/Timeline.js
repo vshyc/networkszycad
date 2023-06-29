@@ -98,6 +98,20 @@ class Timeline extends Component{
                     </div>
                   </div>
                 </li>
+                <li>
+                  <div className="timeline-image">
+                    <img className="rounded-circle img-fluid" src="img/about/epam.jpeg" alt=""/>
+                  </div>
+                  <div className="timeline-panel">
+                    <div className="timeline-heading">
+                      <h4>March 2023</h4>
+                      <h4 className="subheading">Going back for further development</h4>
+                    </div>
+                    <div className="timeline-body">
+                      <p className="text-muted">After getting new skills I have decided to start new role in "old" company to lead testers on big part of application</p>
+                    </div>
+                  </div>
+                </li>
                 <li className="timeline-inverted">
                   <div className="timeline-image">
                     <h4>Be Part
