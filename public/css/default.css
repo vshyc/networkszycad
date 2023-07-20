@@ -34,7 +34,33 @@ footer,header,hgroup,menu,nav,section {
 }
 
 
+.tree {
+   display: flex;
+   justify-content: center;
+   margin-top: 50px;
+}
 
+.person {
+   text-align: center;
+   margin: 0 20px;
+}
+
+.person img {
+   width: 120px;
+   height: 120px;
+   border-radius: 50%;
+}
+
+.person p {
+   margin: 5px 0;
+}
+
+.line {
+   width: 100px;
+   height: 2px;
+   background-color: #000;
+   margin: 0 auto;
+}
 
 .row {
    width: 96%;

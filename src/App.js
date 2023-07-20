@@ -12,6 +12,11 @@ import Registration from "./components/pages/Registration";
 import Running from "./components/pages/Common/Running";
 import Resume from "./components/pages/Common/Resume";
 import $ from 'jquery';
+import TA from "./components/pages/Common/TA";
+import DevOps from "./components/pages/Common/DevOps";
+import Gaming from "./components/pages/Common/Gaming";
+import Family from "./components/pages/Common/Family";
+import Java from "./components/pages/Common/Java";
 
 class App extends Component {
     state = {
@@ -88,6 +93,26 @@ class App extends Component {
                     <Route
                         path="/CV"
                         component={() => <Resume data={this.state.resumeData.resume}/>}
+                    />
+                    <Route
+                        path="/TA"
+                        component={TA}
+                    />
+                    <Route
+                        path="/devops"
+                        component={DevOps}
+                    />
+                    <Route
+                        path="/java"
+                        component={Java}
+                    />
+                    <Route
+                        path="/myFamily"
+                        component={Family}
+                    />
+                    <Route
+                        path="/gaming"
+                        component={Gaming}
                     />
                 </PageWrapper>
 
