@@ -449,3 +449,6 @@ call-to-action .button {
  	border-radius: 100%;
 }
 #go-top a:hover { background-color: #0F9095; }
+@media (max-width: 768px) {
+   #resume .header-col { padding-top: 60px; }
+}
