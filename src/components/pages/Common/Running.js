@@ -9,39 +9,34 @@ class Running extends Component{
     state = {
         result: []
     }
-    componentDidMount() {
-        let config = {
-            headers: {
-                "Access-Control-Allow-Origin": "http://localhost:8080"
-            }
-        }
-        request.get("http://localhost:8080/results")
-            .then(value => {
-                const result = value.data._embedded.results;
-                this.setState({result})
-                console.log(result)
-            })
-            .catch(function (error) {
-                console.log(error);
-            });
-    }
+    componentDidMount() {}
     render() {
 
         if(this.props.data){
-            var runCompetition = this.props.data.runCompetition.map(function(runCompetition){
-                return <div key={runCompetition.name}><p>{runCompetition.name}<span>&bull;</span>
-                   {runCompetition.time}<span>&bull;</span>{runCompetition.date}<span>&bull;</span>
-                    {runCompetition.distance}</p>
-                </div>
-            })
-        }
+
+
+        var renderTableData = this.props.data.runCompetition.map((runCompetition, index) => {
+            const runNameLines = runCompetition.name.split('\n').map((line, i) => <React.Fragment key={i}>{line}<br /></React.Fragment>);
+            const runTimeLines = runCompetition.time.split('\n').map((line, i) => <React.Fragment key={i}>{line}<br /></React.Fragment>);
+            const runDateLines = runCompetition.date.split('\n').map((line, i) => <React.Fragment key={i}>{line}<br /></React.Fragment>);
+            const runDistanceLines = runCompetition.distance.split('\n').map((line, i) => <React.Fragment key={i}>{line}<br /></React.Fragment>);
+
+            return (
+                <tr key={index}>
+                    <td>{runNameLines}</td>
+                    <td>{runTimeLines}</td>
+                    <td>{runDateLines}</td>
+                    <td>{runDistanceLines}</td>
+                </tr>
+            );
+        });}
 
         return(
-            <section>
+            <section className="running">
                 <div className="container">
-            <h1>Running Results</h1>
-            <table className="table-responsive">
-                <thead className="table-bordered table-primary">
+            <h1>Latest Running Results</h1>
+            <table className="blueTable">
+                <thead className="blueTable">
                 <tr>
                     <th>Run Name</th>
                     <th>Run Date</th>
@@ -49,12 +44,10 @@ class Running extends Component{
                     <th>Run Distance</th>
                 </tr>
                 </thead>
+                <tbody>
+                {renderTableData}
+                </tbody>
             </table>
-                <div className="row item">
-                    <div className="twelve columns">
-                    {runCompetition}
-                    </div>
-                </div>
                 </div>
             </section>
     );

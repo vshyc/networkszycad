@@ -186,16 +186,71 @@
   "run": {
     "runCompetition": [
       {
-        "name": "RunGdn",
-        "date": "29.01.2021 ",
-        "time": "29:29",
+        "name": "Szybka strzała północy",
+        "date": "15.06.2024 ",
+        "time": "14:37",
+        "distance": "3km"
+      },
+      {
+        "name": "Biegowe Grand Prix Dzielnic Gdańska 2024 - Etap II: Zaspa",
+        "date": "08.06.2024 ",
+        "time": "24:33",
         "distance": "5km"
       },
       {
-        "name": "RunGdn",
-        "date": "29.01.2021 ",
-        "time": "29:29",
+        "name": "Skywayrun",
+        "date": "19.05.2024 ",
+        "time": "25:06",
         "distance": "5km"
-      }]
+      },
+      {
+        "name": "10. Garmin Półmaraton Gdańsk",
+        "date": "24.09.2023 ",
+        "time": "02:02:52",
+        "distance": "21km"
+      },
+      {
+        "name": "61. Bieg Westerplatte",
+        "date": "17.09.2023 ",
+        "time": "52:27",
+        "distance": "10km"
+      },
+      {
+        "name": "Biegowe Grand Prix Dzielnic Gdańska 2023 - Etap IV: Piecki-Migowo/Jasień",
+        "date": "16.09.2023 ",
+        "time": "25:53",
+        "distance": "5km"
+      },
+      {
+        "name": "Biegowe Grand Prix Dzielnic Gdańska 2023 - Etap III: Orunia Górna",
+        "date": "02.09.2023 ",
+        "time": "27:01",
+        "distance": "5km"
+      },
+      {
+        "name": "Nocny Bieg i Marsz Świętojański",
+        "date": "23.06.2023",
+        "time": "55:11",
+        "distance": "10km"
+      },
+      {
+        "name": "Gdańsk Tętni Dobrem",
+        "date": "10.06.2023",
+        "time": "49:34",
+        "distance": "9km"
+      },
+      {
+        "name": "SKYWAYRUN Gdańsk Airport – Nocny Bieg po Lotnisku",
+        "date": "21.05.2023 ",
+        "time": "25:49",
+        "distance": "5km"
+      },
+      {
+        "name": "Cross Duathlon",
+        "date": "15.04.2023",
+        "time": "02:07:04",
+        "distance": "29km"
+      }
+    ]
   }
 }

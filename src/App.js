@@ -14,7 +14,7 @@ import Resume from "./components/pages/Common/Resume";
 import $ from 'jquery';
 import TA from "./components/pages/Common/TA";
 import DevOps from "./components/pages/Common/DevOps";
-import Gaming from "./components/pages/Common/Gaming";
+import Orienteering from "./components/pages/Common/Orienteering";
 import Family from "./components/pages/Common/Family";
 import Java from "./components/pages/Common/Java";
 
@@ -111,8 +111,8 @@ class App extends Component {
                         component={Family}
                     />
                     <Route
-                        path="/gaming"
-                        component={Gaming}
+                        path="/orienteering"
+                        component={Orienteering}
                     />
                 </PageWrapper>
 

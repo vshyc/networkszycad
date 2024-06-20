@@ -8,7 +8,8 @@ import restAssured from '../../assets/img/portfolio/restAssured.png';
 import gaming from '../../assets/img/portfolio/gaming.jpeg';
 import devops from '../../assets/img/portfolio/devops.png';
 import family from '../../assets/img/portfolio/family.jpeg';
-import run from '../../assets/img/portfolio/run.jpeg';
+import run from '../../assets/img/portfolio/run.jpg';
+import ino from '../../assets/img/portfolio/ino.jpg';
 import img2 from '../../assets/img/portfolio/02-thumbnail.jpg';
 import img3 from '../../assets/img/portfolio/03-thumbnail.jpg';
 import img4 from '../../assets/img/portfolio/04-thumbnail.jpg';
@@ -24,7 +25,7 @@ const techonologies = [
 const freeTime = [
     {title: 'Family',subTitle: 'Family is always first',img: family, portfolioModal: "/myFamily"},
     {title: 'Sport',subTitle: 'Running , Cycling, Gym', img: run, portfolioModal: "/running"},
-    {title: 'Gaming',subTitle: "As I'm older this part is less important", img: gaming, portfolioModal: "/gaming"},
+    {title: 'Orienteering',subTitle: "Spending time with my Family", img: ino, portfolioModal: "/orienteering"},
 ]
 
 
