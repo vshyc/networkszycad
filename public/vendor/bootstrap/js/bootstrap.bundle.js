@@ -4,8 +4,10 @@
   * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
   */
 (function (global, factory) {
+    // eslint-disable-next-line no-unused-expressions
     typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('jquery')) :
         typeof define === 'function' && define.amd ? define(['exports', 'jquery'], factory) :
+            // eslint-disable-next-line no-restricted-globals
             (global = global || self, factory(global.bootstrap = {}, global.jQuery));
 }(this, function (exports, $) {
     

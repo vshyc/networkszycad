@@ -43,8 +43,6 @@ class App extends Component {
     async componentDidMount() {
         const response = await fetch('/api/groups');
         this.getResumeData();
-        const body = await response.json();
-        this.setState({groups: body, isLoading: false});
     }
 
     render() {
