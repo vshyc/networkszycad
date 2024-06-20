@@ -1,8 +1,4 @@
 import React, {Component} from "react";
-const request = require('axios');
-
-let runningResults = []
-
 
 class Running extends Component{
 

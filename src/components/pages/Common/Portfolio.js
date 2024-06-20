@@ -5,15 +5,11 @@ import SinglePortfolio from './SinglePortfolio';
 import img1 from '../../assets/img/portfolio/01-thumbnail.jpg';
 import java from '../../assets/img/portfolio/java.jpeg';
 import restAssured from '../../assets/img/portfolio/restAssured.png';
-import gaming from '../../assets/img/portfolio/gaming.jpeg';
 import devops from '../../assets/img/portfolio/devops.png';
 import family from '../../assets/img/portfolio/family.jpeg';
 import run from '../../assets/img/portfolio/run.jpg';
 import ino from '../../assets/img/portfolio/ino.jpg';
 import img2 from '../../assets/img/portfolio/02-thumbnail.jpg';
-import img3 from '../../assets/img/portfolio/03-thumbnail.jpg';
-import img4 from '../../assets/img/portfolio/04-thumbnail.jpg';
-import img5 from '../../assets/img/portfolio/05-thumbnail.jpg';
 
 const techonologies = [
     {title: 'CV',subTitle: 'Education and Work Journey', img: img2, portfolioModal: "/CV"},
