@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { withFormik, Form, Field } from 'formik';
 import * as Yup from 'yup';
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import Toast from '../../Common/Toast';
 
 const ContactForm = ({ errors, touched, isSubmitting, status, setStatus }) => {
