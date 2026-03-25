@@ -1,40 +1,94 @@
-import React, {Component} from 'react';
-import {Link} from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
+import Footer from './Common/Footer';
+import ScrollToTop from './Common/ScrollToTop';
+import Breadcrumbs from './Common/Breadcrumbs';
 
-class PageWrapper extends Component {
-    render(){
-        return(
-        <div>
-        <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style={{backgroundColor:'black'}}>
-          <div className="container">
-            <Link className="navbar-brand js-scroll-trigger" to="/">Dariusz Szyca</Link>
-            <button className="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              Menu
-              <i className="fas fa-bars"></i>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
-              <ul className="navbar-nav text-uppercase ml-auto">
-                  <li className="nav-item">
-                      <Link id="headerHome" className="nav-link js-scroll-trigger" to="/">Home</Link>
-                  </li>
-                  <li className="nav-item">
-                      <Link id="headerPortfolio" className="nav-link js-scroll-trigger" to="/portfolio">Portfolio</Link>
-                  </li>
-                  <li className="nav-item">
-                      <Link id="headerAbout" className="nav-link js-scroll-trigger" to="/about">About</Link>
-                  </li>
-                  <li className="nav-item">
-                      <Link id="headerContact" className="nav-link js-scroll-trigger" to="/contact">Contact</Link>
-                  </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        {this.props.children}
-        </div>
-        );
+const PageWrapper = ({ children }) => {
+  const location = useLocation();
+  const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 100);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleNavClick = () => {
+    setIsNavCollapsed(true);
+  };
+
+  const isActive = (path) => {
+    if (path === '/') {
+      return location.pathname === '/';
     }
+    return location.pathname.startsWith(path);
+  };
 
-}
+  const navLinks = [
+    { path: '/', label: 'Home', id: 'headerHome' },
+    { path: '/portfolio', label: 'Portfolio', id: 'headerPortfolio' },
+    { path: '/about', label: 'About', id: 'headerAbout' },
+    { path: '/contact', label: 'Contact', id: 'headerContact' },
+  ];
 
-export default PageWrapper
+  return (
+    <div className="page-wrapper">
+      <nav
+        className={`navbar navbar-expand-lg navbar-dark fixed-top ${isScrolled ? 'navbar-shrink' : ''}`}
+        id="mainNav"
+        style={{ backgroundColor: isScrolled ? '#212529' : 'transparent' }}
+      >
+        <div className="container">
+          <Link className="navbar-brand js-scroll-trigger" to="/" onClick={handleNavClick}>
+            Dariusz Szyca
+          </Link>
+          <button
+            className="navbar-toggler navbar-toggler-right"
+            type="button"
+            onClick={() => setIsNavCollapsed(!isNavCollapsed)}
+            aria-controls="navbarResponsive"
+            aria-expanded={!isNavCollapsed}
+            aria-label="Toggle navigation"
+          >
+            Menu
+            <i className="fas fa-bars ml-2"></i>
+          </button>
+          <div
+            className={`collapse navbar-collapse ${!isNavCollapsed ? 'show' : ''}`}
+            id="navbarResponsive"
+          >
+            <ul className="navbar-nav text-uppercase ml-auto">
+              {navLinks.map((link) => (
+                <li className="nav-item" key={link.id}>
+                  <Link
+                    id={link.id}
+                    className={`nav-link js-scroll-trigger ${isActive(link.path) ? 'active' : ''}`}
+                    to={link.path}
+                    onClick={handleNavClick}
+                  >
+                    {link.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main className="main-content">
+        <Breadcrumbs />
+        {children}
+      </main>
+
+      <Footer />
+      <ScrollToTop />
+    </div>
+  );
+};
+
+export default PageWrapper;

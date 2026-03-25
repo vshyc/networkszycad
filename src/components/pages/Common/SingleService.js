@@ -1,18 +1,31 @@
-import React, {Component} from 'react'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
-class SingleService extends Component {
-render(){
-    return(
-        <div className="col-md-4">
-          <span className="fa-stack fa-4x">
-            <i className="fas fa-circle fa-stack-2x text-primary"></i>
-            <Link className={'fas '+this.props.icon+' fa-stack-1x fa-inverse'} to={this.props.serviceName}></Link>
-          </span>
-          <h4 className="service-heading">{this.props.serviceName}</h4>
-          <p className="text-muted">{this.props.serviceText}</p>
-        </div>    
-    );
-}
-}
-export default SingleService
+const SingleService = ({ serviceName, serviceText, icon }) => {
+  return (
+    <div className="col-md-4">
+      <span className="fa-stack fa-4x">
+        <i className="fas fa-circle fa-stack-2x text-primary" aria-hidden="true"></i>
+        <Link
+          className={`fas ${icon} fa-stack-1x fa-inverse`}
+          to={`/${serviceName.toLowerCase().replace(/\s+/g, '-')}`}
+          aria-label={serviceName}
+        ></Link>
+      </span>
+      <h4 className="service-heading">{serviceName}</h4>
+      <p className="text-muted">{serviceText}</p>
+    </div>
+  );
+};
+
+SingleService.propTypes = {
+  serviceName: PropTypes.string.isRequired,
+  serviceText: PropTypes.string,
+  icon: PropTypes.string.isRequired,
+};
+
+SingleService.defaultProps = {
+  serviceText: '',
+};
+
+export default SingleService;

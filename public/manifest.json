@@ -1,6 +1,7 @@
 {
-  "short_name": "Dariusz Szyca's Page",
-  "name": "Created my page for testing",
+  "short_name": "Dariusz Szyca",
+  "name": "Dariusz Szyca - Senior Test Automation Engineer Portfolio",
+  "description": "Portfolio website of Dariusz Szyca, a Senior Test Automation Engineer specializing in Java, Selenium, DevOps, and CI/CD pipelines.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -10,16 +11,21 @@
     {
       "src": "logo192.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "purpose": "any maskable"
     },
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
   "start_url": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#fed136",
+  "background_color": "#212529",
+  "orientation": "portrait-primary",
+  "categories": ["portfolio", "technology", "business"],
+  "lang": "en-US"
 }

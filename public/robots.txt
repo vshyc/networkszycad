@@ -1,2 +1,13 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
+Allow: /
+
+# Disallow admin and private pages
+Disallow: /login
+Disallow: /registration
+
+# Sitemap location
+Sitemap: https://dariuszszyca.com/sitemap.xml
+
+# Crawl delay (optional, be nice to servers)
+Crawl-delay: 1
