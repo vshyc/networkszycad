@@ -8,6 +8,7 @@
     "@types/node": "^20.14.6",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "ajv": "^8.18.0",
     "axios": "^1.7.2",
     "emailjs-com": "^3.2.0",
     "formik": "^2.4.6",
