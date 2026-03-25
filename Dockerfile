@@ -3,6 +3,9 @@ FROM node:18-alpine AS build
 
 WORKDIR /app
 
+# Force use of public npm registry
+RUN npm config set registry https://registry.npmjs.org/
+
 # Copy package files
 COPY package*.json ./
 
