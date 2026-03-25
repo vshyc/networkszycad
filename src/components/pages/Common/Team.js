@@ -1,35 +1,5 @@
 import TeamMember from './TeamMember';
-
-import img1 from '../../assets/img/portfolio/darek.jpeg';
-import img2 from '../../assets/img/portfolio/ola.jpeg';
-import img3 from '../../assets/img/portfolio/01-thumbnail.jpg';
-
-const members = [
-  {
-    memberName: 'Aleksandra Szyca',
-    memberWork: 'Leader',
-    img: img2,
-    facebook: 'https://www.facebook.com/aleksandra.goc.3',
-    linkedIn: 'https://www.linkedin.com/in/aleksandra-szyca-733318198/',
-    github: 'https://github.com/vshyc',
-  },
-  {
-    memberName: 'Dariusz Szyca',
-    memberWork: 'Developer, Tester',
-    img: img1,
-    facebook: 'https://www.facebook.com/darek.szyca/',
-    linkedIn: 'https://www.linkedin.com/in/darek-szyca-903b21138/',
-    github: 'https://github.com/vshyc',
-  },
-  {
-    memberName: 'Barbara and Gabriela Szyca',
-    memberWork: 'Motivation Team',
-    img: img3,
-    facebook: '#',
-    linkedIn: '#',
-    github: '#',
-  },
-];
+import { TEAM_MEMBERS } from '../../../config/team';
 
 const Team = () => {
   return (
@@ -44,7 +14,7 @@ const Team = () => {
           </div>
         </div>
         <div className="row">
-          {members.map((member, index) => (
+          {TEAM_MEMBERS.map((member, index) => (
             <TeamMember {...member} key={index} />
           ))}
         </div>

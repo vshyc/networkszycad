@@ -1,8 +1,8 @@
+import { memo } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import LazyImage from '../../Common/LazyImage';
 
-const SinglePortfolio = ({ title, subTitle, img, portfolioModal }) => {
+const SinglePortfolio = memo(({ title, subTitle, img, portfolioModal }) => {
   return (
     <div className="col-md-4 col-sm-6 portfolio-item">
       <Link className="portfolio-link" to={portfolioModal}>
@@ -11,7 +11,12 @@ const SinglePortfolio = ({ title, subTitle, img, portfolioModal }) => {
             <i className="fas fa-plus fa-3x" aria-hidden="true"></i>
           </div>
         </div>
-        <LazyImage className="img-fluid" src={img} alt={`${title} - ${subTitle}`} />
+        <img
+          className="img-fluid"
+          src={img}
+          alt={`${title} - ${subTitle}`}
+          loading="lazy"
+        />
       </Link>
       <div className="portfolio-caption">
         <h4>{title}</h4>
@@ -19,7 +24,9 @@ const SinglePortfolio = ({ title, subTitle, img, portfolioModal }) => {
       </div>
     </div>
   );
-};
+});
+
+SinglePortfolio.displayName = 'SinglePortfolio';
 
 SinglePortfolio.propTypes = {
   title: PropTypes.string.isRequired,

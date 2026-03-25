@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import SEO from '../../Common/SEO';
 
 const blogPosts = [
@@ -61,6 +62,18 @@ const BlogPost = ({ title, content, tips, items }) => (
     )}
   </article>
 );
+
+BlogPost.propTypes = {
+  title: PropTypes.string.isRequired,
+  content: PropTypes.string.isRequired,
+  tips: PropTypes.arrayOf(PropTypes.string),
+  items: PropTypes.arrayOf(
+    PropTypes.shape({
+      label: PropTypes.string.isRequired,
+      text: PropTypes.string.isRequired,
+    })
+  ),
+};
 
 const Orienteering = () => {
   const structuredData = {

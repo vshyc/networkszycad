@@ -1,11 +1,6 @@
 import SingleService from './SingleService';
 import SEO from '../../Common/SEO';
-
-const services = [
-  { serviceName: 'E-Commerce', serviceText: '', icon: 'fa-shopping-cart' },
-  { serviceName: 'Responsive Design', serviceText: '', icon: 'fa-laptop' },
-  { serviceName: 'Web Security', serviceText: '', icon: 'fa-lock' },
-];
+import { SERVICES } from '../../../config/portfolio';
 
 const Services = () => {
   return (
@@ -27,7 +22,7 @@ const Services = () => {
             </div>
           </div>
           <div className="row text-center">
-            {services.map((service, index) => (
+            {SERVICES.map((service, index) => (
               <SingleService {...service} key={index} />
             ))}
           </div>

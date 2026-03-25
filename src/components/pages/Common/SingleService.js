@@ -1,7 +1,8 @@
+import { memo } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-const SingleService = ({ serviceName, serviceText, icon }) => {
+const SingleService = memo(({ serviceName, serviceText, icon }) => {
   return (
     <div className="col-md-4">
       <span className="fa-stack fa-4x">
@@ -16,7 +17,9 @@ const SingleService = ({ serviceName, serviceText, icon }) => {
       <p className="text-muted">{serviceText}</p>
     </div>
   );
-};
+});
+
+SingleService.displayName = 'SingleService';
 
 SingleService.propTypes = {
   serviceName: PropTypes.string.isRequired,

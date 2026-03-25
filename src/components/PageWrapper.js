@@ -1,47 +1,38 @@
-import { useState, useEffect } from 'react';
+import { useState, useCallback, memo } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import Footer from './Common/Footer';
 import ScrollToTop from './Common/ScrollToTop';
 import Breadcrumbs from './Common/Breadcrumbs';
+import ThemeToggle from './Common/ThemeToggle';
+import { useScrollPosition } from '../hooks';
+import { NAV_LINKS } from '../config/constants';
 
-const PageWrapper = ({ children }) => {
+const PageWrapper = memo(({ children, isDark, onThemeToggle }) => {
   const location = useLocation();
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
-  const [isScrolled, setIsScrolled] = useState(false);
+  const { isScrolled } = useScrollPosition(100);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 100);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
+  const handleNavClick = useCallback(() => {
+    setIsNavCollapsed(true);
   }, []);
 
-  const handleNavClick = () => {
-    setIsNavCollapsed(true);
-  };
+  const toggleNav = useCallback(() => {
+    setIsNavCollapsed((prev) => !prev);
+  }, []);
 
-  const isActive = (path) => {
+  const isActive = useCallback((path) => {
     if (path === '/') {
       return location.pathname === '/';
     }
     return location.pathname.startsWith(path);
-  };
-
-  const navLinks = [
-    { path: '/', label: 'Home', id: 'headerHome' },
-    { path: '/portfolio', label: 'Portfolio', id: 'headerPortfolio' },
-    { path: '/about', label: 'About', id: 'headerAbout' },
-    { path: '/contact', label: 'Contact', id: 'headerContact' },
-  ];
+  }, [location.pathname]);
 
   return (
     <div className="page-wrapper">
       <nav
         className={`navbar navbar-expand-lg navbar-dark fixed-top ${isScrolled ? 'navbar-shrink' : ''}`}
         id="mainNav"
-        style={{ backgroundColor: isScrolled ? '#212529' : 'transparent' }}
       >
         <div className="container">
           <Link className="navbar-brand js-scroll-trigger" to="/" onClick={handleNavClick}>
@@ -50,20 +41,20 @@ const PageWrapper = ({ children }) => {
           <button
             className="navbar-toggler navbar-toggler-right"
             type="button"
-            onClick={() => setIsNavCollapsed(!isNavCollapsed)}
+            onClick={toggleNav}
             aria-controls="navbarResponsive"
             aria-expanded={!isNavCollapsed}
             aria-label="Toggle navigation"
           >
             Menu
-            <i className="fas fa-bars ml-2"></i>
+            <i className="fas fa-bars ml-2" aria-hidden="true"></i>
           </button>
           <div
             className={`collapse navbar-collapse ${!isNavCollapsed ? 'show' : ''}`}
             id="navbarResponsive"
           >
             <ul className="navbar-nav text-uppercase ml-auto">
-              {navLinks.map((link) => (
+              {NAV_LINKS.map((link) => (
                 <li className="nav-item" key={link.id}>
                   <Link
                     id={link.id}
@@ -75,20 +66,36 @@ const PageWrapper = ({ children }) => {
                   </Link>
                 </li>
               ))}
+              <li className="nav-item">
+                <ThemeToggle isDark={isDark} onToggle={onThemeToggle} />
+              </li>
             </ul>
           </div>
         </div>
       </nav>
 
-      <main className="main-content">
+      <div className="main-content">
         <Breadcrumbs />
         {children}
-      </main>
+      </div>
 
       <Footer />
       <ScrollToTop />
     </div>
   );
+});
+
+PageWrapper.displayName = 'PageWrapper';
+
+PageWrapper.propTypes = {
+  children: PropTypes.node.isRequired,
+  isDark: PropTypes.bool,
+  onThemeToggle: PropTypes.func,
+};
+
+PageWrapper.defaultProps = {
+  isDark: false,
+  onThemeToggle: () => {},
 };
 
 export default PageWrapper;

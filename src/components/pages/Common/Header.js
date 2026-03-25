@@ -1,7 +1,8 @@
+import { memo } from 'react';
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
-const Header = ({ title, subtitle, buttonText, link, showButton, img }) => {
+const Header = memo(({ title, subtitle, buttonText, link, showButton, img }) => {
   return (
     <header className="masthead" style={{ backgroundImage: `url("${img}")` }}>
       <div className="container">
@@ -17,7 +18,9 @@ const Header = ({ title, subtitle, buttonText, link, showButton, img }) => {
       </div>
     </header>
   );
-};
+});
+
+Header.displayName = 'Header';
 
 Header.propTypes = {
   title: PropTypes.string.isRequired,

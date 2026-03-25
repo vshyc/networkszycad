@@ -44,15 +44,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     
-    <!-- Fonts with display=swap for better performance -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Kaushan+Script&family=Droid+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100;300;400;700&display=swap" rel="stylesheet"/>
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com"/>
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com"/>
     
-    <!-- Stylesheets -->
+    <!-- Preload critical fonts -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" as="style"/>
+    
+    <!-- Fonts with display=swap for better performance -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Kaushan+Script&family=Roboto+Slab:wght@100;300;400;700&display=swap" rel="stylesheet"/>
+    
+    <!-- Critical CSS - Bootstrap (only grid and utilities) -->
     <link href="%PUBLIC_URL%/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link href="%PUBLIC_URL%/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/default.css"/>
+    
+    <!-- Font Awesome - loaded async -->
+    <link href="%PUBLIC_URL%/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'"/>
+    <noscript><link href="%PUBLIC_URL%/vendor/fontawesome-free/css/all.min.css" rel="stylesheet"/></noscript>
+    
+    <!-- App Stylesheets -->
     <link href="%PUBLIC_URL%/css/agency.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="%PUBLIC_URL%/css/layout.css"/>
     
     <!-- Structured Data - Person -->
     <script type="application/ld+json">
@@ -69,28 +79,9 @@
         "https://www.facebook.com/darek.szyca/"
       ],
       "knowsAbout": ["Test Automation", "Java", "Selenium", "DevOps", "CI/CD", "REST API Testing", "JUnit", "ISTQB"],
-      "alumniOf": {
-        "@type": "Organization",
-        "name": "Software Development Academy"
-      },
       "worksFor": {
         "@type": "Organization",
         "name": "EPAM Systems"
-      }
-    }
-    </script>
-    
-    <!-- Structured Data - WebSite -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "name": "Dariusz Szyca Portfolio",
-      "url": "https://dariuszszyca.com",
-      "description": "Portfolio website of Dariusz Szyca, Senior Test Automation Engineer",
-      "author": {
-        "@type": "Person",
-        "name": "Dariusz Szyca"
       }
     }
     </script>
@@ -103,7 +94,7 @@
 </noscript>
 <div id="root"></div>
 
-<!-- Scripts moved to end for better performance -->
-<script src="%PUBLIC_URL%/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- Only essential Bootstrap JS - loaded defer -->
+<script src="%PUBLIC_URL%/vendor/bootstrap/js/bootstrap.bundle.min.js" defer></script>
 </body>
 </html>

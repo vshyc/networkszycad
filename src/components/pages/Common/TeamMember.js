@@ -1,14 +1,17 @@
+import { memo } from 'react';
 import PropTypes from 'prop-types';
-import LazyImage from '../../Common/LazyImage';
 
-const TeamMember = ({ memberName, memberWork, img, github, facebook, linkedIn }) => {
+const TeamMember = memo(({ memberName, memberWork, img, github, facebook, linkedIn }) => {
   return (
     <div className="col-sm-4">
       <div className="team-member">
-        <LazyImage
+        <img
           className="mx-auto rounded-circle"
           src={img}
           alt={`${memberName} profile`}
+          loading="lazy"
+          width="225"
+          height="225"
         />
         <h4>{memberName}</h4>
         <p className="text-muted">{memberWork}</p>
@@ -47,7 +50,9 @@ const TeamMember = ({ memberName, memberWork, img, github, facebook, linkedIn })
       </div>
     </div>
   );
-};
+});
+
+TeamMember.displayName = 'TeamMember';
 
 TeamMember.propTypes = {
   memberName: PropTypes.string.isRequired,

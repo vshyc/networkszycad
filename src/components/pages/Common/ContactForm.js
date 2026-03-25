@@ -4,6 +4,8 @@ import * as Yup from 'yup';
 import emailjs from '@emailjs/browser';
 import Toast from '../../Common/Toast';
 
+// Note: Props are injected by withFormik HOC
+/* eslint-disable react/prop-types */
 const ContactForm = ({ errors, touched, isSubmitting, status, setStatus }) => {
   const maxMessageLength = 500;
   const [messageLength, setMessageLength] = useState(0);
@@ -29,7 +31,7 @@ const ContactForm = ({ errors, touched, isSubmitting, status, setStatus }) => {
                 name="name"
                 id="name"
                 placeholder="Your Name *"
-                className={`form-control ${touched.name && errors.name ? 'is-invalid' : ''}`}
+                className={`form-control contact-input ${touched.name && errors.name ? 'is-invalid' : ''}`}
                 aria-describedby={touched.name && errors.name ? 'name-error' : undefined}
               />
               {touched.name && errors.name && (
@@ -49,7 +51,7 @@ const ContactForm = ({ errors, touched, isSubmitting, status, setStatus }) => {
                 name="email"
                 id="email"
                 placeholder="Your Email *"
-                className={`form-control ${touched.email && errors.email ? 'is-invalid' : ''}`}
+                className={`form-control contact-input ${touched.email && errors.email ? 'is-invalid' : ''}`}
                 aria-describedby={touched.email && errors.email ? 'email-error' : undefined}
               />
               {touched.email && errors.email && (
@@ -69,7 +71,7 @@ const ContactForm = ({ errors, touched, isSubmitting, status, setStatus }) => {
                 name="phone"
                 id="phone"
                 placeholder="Your Phone *"
-                className={`form-control ${touched.phone && errors.phone ? 'is-invalid' : ''}`}
+                className={`form-control contact-input ${touched.phone && errors.phone ? 'is-invalid' : ''}`}
                 aria-describedby={touched.phone && errors.phone ? 'phone-error' : undefined}
               />
               {touched.phone && errors.phone && (
@@ -89,14 +91,14 @@ const ContactForm = ({ errors, touched, isSubmitting, status, setStatus }) => {
                 name="message"
                 id="message"
                 placeholder="Message *"
-                className={`form-control ${touched.message && errors.message ? 'is-invalid' : ''}`}
+                className={`form-control contact-input ${touched.message && errors.message ? 'is-invalid' : ''}`}
                 aria-describedby={
                   touched.message && errors.message ? 'message-error' : 'message-counter'
                 }
                 maxLength={maxMessageLength}
                 onKeyUp={(e) => setMessageLength(e.target.value.length)}
               />
-              <small id="message-counter" className="form-text text-muted text-right">
+              <small id="message-counter" className="form-text text-light text-right">
                 {messageLength}/{maxMessageLength} characters
               </small>
               {touched.message && errors.message && (
@@ -158,10 +160,22 @@ const EnhancedContactForm = withFormik({
   handleSubmit: (values, { setSubmitting, resetForm, setStatus }) => {
     const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
     const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
-    const userId = process.env.REACT_APP_EMAILJS_USER_ID;
+    const publicKey = process.env.REACT_APP_EMAILJS_USER_ID;
+
+    // Check if env vars are set
+    if (!serviceId || !templateId || !publicKey) {
+      setStatus({
+        toast: {
+          message: 'Email service not configured. Please contact directly.',
+          type: 'error',
+        },
+      });
+      setSubmitting(false);
+      return;
+    }
 
     emailjs
-      .send(serviceId, templateId, values, userId)
+      .send(serviceId, templateId, values, { publicKey })
       .then(() => {
         setStatus({
           toast: {
@@ -172,7 +186,8 @@ const EnhancedContactForm = withFormik({
         resetForm();
         setSubmitting(false);
       })
-      .catch(() => {
+      .catch((error) => {
+        console.error('EmailJS error:', error);
         setStatus({
           toast: {
             message: 'Failed to send message. Please try again later.',

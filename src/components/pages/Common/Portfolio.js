@@ -1,33 +1,6 @@
 import SinglePortfolio from './SinglePortfolio';
 import SEO from '../../Common/SEO';
-
-import img1 from '../../assets/img/portfolio/01-thumbnail.jpg';
-import java from '../../assets/img/portfolio/java.jpeg';
-import restAssured from '../../assets/img/portfolio/restAssured.png';
-import devops from '../../assets/img/portfolio/devops.png';
-import family from '../../assets/img/portfolio/family.jpeg';
-import run from '../../assets/img/portfolio/run.jpg';
-import ino from '../../assets/img/portfolio/ino.jpg';
-import img2 from '../../assets/img/portfolio/02-thumbnail.jpg';
-
-const technologies = [
-  { title: 'CV', subTitle: 'Education and Work Journey', img: img2, portfolioModal: '/CV' },
-  { title: 'Tester', subTitle: 'The Journey', img: img1, portfolioModal: '/about' },
-  { title: 'Java', subTitle: 'Main Language', img: java, portfolioModal: '/java' },
-  { title: 'TA', subTitle: 'Test Automation', img: restAssured, portfolioModal: '/ta' },
-  { title: 'DevOps', subTitle: 'Grow in DevOps', img: devops, portfolioModal: '/devops' },
-];
-
-const freeTime = [
-  { title: 'Family', subTitle: 'Family is always first', img: family, portfolioModal: '/myFamily' },
-  { title: 'Sport', subTitle: 'Running , Cycling, Gym', img: run, portfolioModal: '/running' },
-  {
-    title: 'Orienteering',
-    subTitle: 'Spending time with my Family',
-    img: ino,
-    portfolioModal: '/orienteering',
-  },
-];
+import { TECHNOLOGIES, FREE_TIME } from '../../../config/portfolio';
 
 const Portfolio = () => {
   const structuredData = {
@@ -37,7 +10,7 @@ const Portfolio = () => {
     description: 'Portfolio showcasing skills in Java, Test Automation, DevOps, and personal interests',
     mainEntity: {
       '@type': 'ItemList',
-      itemListElement: technologies.map((tech, index) => ({
+      itemListElement: TECHNOLOGIES.map((tech, index) => ({
         '@type': 'ListItem',
         position: index + 1,
         name: tech.title,
@@ -64,7 +37,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="row">
-            {technologies.map((item, index) => (
+            {TECHNOLOGIES.map((item, index) => (
               <SinglePortfolio {...item} key={index} />
             ))}
           </div>
@@ -77,7 +50,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="row">
-            {freeTime.map((item, index) => (
+            {FREE_TIME.map((item, index) => (
               <SinglePortfolio {...item} key={index} />
             ))}
           </div>

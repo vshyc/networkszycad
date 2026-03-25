@@ -41,6 +41,8 @@ const fields = {
   ],
 };
 
+// Props are injected by withFormik HOC
+/* eslint-disable react/prop-types */
 const Registration = (props) => {
   return (
     <>
